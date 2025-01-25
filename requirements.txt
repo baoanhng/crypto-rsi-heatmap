@@ -1,4 +1,4 @@
-numpy==1.24.4
+numpy==1.26.4
 tqdm==4.65.0
 pycoingecko==3.1.0
 tradingview_ta==3.3.0
