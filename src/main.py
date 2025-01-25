@@ -38,7 +38,7 @@ def get_color_for_rsi(rsi_value: float) -> dict:
     return None
 
 
-def plot_rsi_heatmap(num_coins: int = 100, time_frame: str = "5m"):
+def plot_rsi_heatmap(num_coins: int = 100, time_frame: str = "1h"):
     fig, ax = plt.subplots(figsize=FIGURE_SIZE)
     plt.subplots_adjust(left=0.05, bottom=0.2, right=0.95, top=0.9)
 
